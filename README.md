@@ -1,6 +1,6 @@
 # dr_doom - Backend para Gerenciamento de Conteúdo com Django REST Framework
 
-![dr_doom](dr_doom.webp){width=350px height=500px}
+<img src="dr_doom.webp" alt="dr_doom" width="350" height="500">
 
 O `dr_doom` é uma aplicação em Django REST Framework desenvolvida para servir como backend para um Content Management Application (CMA), destinado ao gerenciamento de conteúdo. Este backend fornece serviços para armazenar, recuperar e gerenciar dados em forma de posts, bem como inclui funcionalidades administrativas e controle de autenticação.
 
