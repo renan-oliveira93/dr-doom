@@ -1,3 +1,5 @@
+**(Projeto em andamento)**
+
 # dr_doom - Backend para Gerenciamento de Conteúdo com Django REST Framework
 
 <img src="dr_doom.webp" alt="dr_doom" width="350" height="500">
