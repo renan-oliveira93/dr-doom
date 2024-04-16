@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'apps.post',
     'apps.image',
+    'apps.customization',
 ]
 
 MIDDLEWARE = [
