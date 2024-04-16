@@ -1,5 +1,5 @@
 from django.db import models
-from image.models import Image
+from apps.image.models import Image
 
 class Post(models.Model):
     CATEGORY_OPTIONS = [

@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path, include
-from post.views import PostViewSet
-from image.views import ImageViewSet
+from apps.post.views import PostViewSet
+from apps.image.views import ImageViewSet
 from rest_framework import routers
 from django.conf import settings
 from django.conf.urls.static import static

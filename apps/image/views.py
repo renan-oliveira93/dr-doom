@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from image.models import Image
-from image.serializer import ImageSerializer
+from apps.image.models import Image
+from apps.image.serializer import ImageSerializer
 from rest_framework.authentication import BasicAuthentication
 from rest_framework.permissions import IsAuthenticated
 
