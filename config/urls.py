@@ -2,6 +2,7 @@ from django.contrib import admin
 from django.urls import path, include
 from apps.post.views import PostViewSet
 from apps.image.views import ImageViewSet
+from apps.customization.views import CustomizationViewSet
 from rest_framework import routers
 from django.conf import settings
 from django.conf.urls.static import static
@@ -9,6 +10,7 @@ from django.conf.urls.static import static
 router = routers.DefaultRouter()
 router.register(r'posts',PostViewSet)
 router.register(r'images',ImageViewSet)
+router.register(r'customization',CustomizationViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
